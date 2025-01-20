@@ -11,7 +11,7 @@ public class CalculatorService : ICalculatorService
         }
 
         // 檢查身高是否為零
-        if (heightInCm <= 0)
+        if (heightInCm == 0)
         {
             throw new DivideByZeroException("Height cannot be zero.");
         }

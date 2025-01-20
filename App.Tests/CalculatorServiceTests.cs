@@ -14,10 +14,10 @@ public class CalculatorServiceTests
     }
 
     /// <summary>
-    /// 計算 BMI 有效輸入 預期結果 通過
+    /// 計算 BMI 有效輸入 預期結果 正確的BMI
     /// </summary>
     [Test]
-    public void When_Calculator_BMI_ValidInputs_Expected_Pass()
+    public void When_Calculator_BMI_ValidInputs_Expected_CorrectBMI()
     {
         // Arrange
         double weight = 70;

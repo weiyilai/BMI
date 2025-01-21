@@ -1,6 +1,6 @@
 # BMI
 
-[單元測試](https://docs.google.com/presentation/d/1y1_quIzecA8wZUWjYMzOCxm9gFsSIK-8vYgKR5Goe3s/edit?usp=sharing)
+[簡報](https://docs.google.com/presentation/d/1y1_quIzecA8wZUWjYMzOCxm9gFsSIK-8vYgKR5Goe3s/edit?usp=sharing)
 
 [與 .NET 測試整合](https://learn.microsoft.com/zh-tw/dotnet/core/testing/unit-testing-code-coverage?tabs=linux#integrate-with-net-test)
 

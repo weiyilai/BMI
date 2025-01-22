@@ -14,12 +14,14 @@ Calculator(host.Services);
 
 await host.RunAsync();
 
-
 static void Calculator(IServiceProvider hostProvider)
 {
     using IServiceScope serviceScope = hostProvider.CreateScope();
     IServiceProvider provider = serviceScope.ServiceProvider;
     var service = provider.GetRequiredService<ICalculatorService>();
 
-    Console.WriteLine($"{service.BMI(80, 190)}");
+    double weight = 80;
+    double heightInCm = 190;
+
+    Console.WriteLine($"{service.BMI(weight, heightInCm)}");
 }
